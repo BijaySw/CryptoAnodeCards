@@ -1,0 +1,127 @@
+{
+  "reqid": 41,
+  "type": "MarketDataSnapshot",
+  "tag": "cd33f6b0-5d37-11e9-97e0-bb2afd9bf808/SIZE",
+  "seq": 1,
+  "initial": true,
+  "ts": "2024-04-14T11:37:43.126515Z",
+  "data": [
+    {
+      "Symbol": "BTC-USD",
+      "DepthType": "VWAP",
+      "LiquidityType": "Firm",
+      "ExchangeTime": "2024-04-14T11:37:43.118973Z",
+      "SystemTime": "2024-04-14T11:37:43.122051Z",
+      "Bids": [
+        {
+          "Price": "64122.97",
+          "VWAP": "64122.97",
+          "Size": "1.00000000"
+        },
+        {
+          "Price": "64122.97",
+          "VWAP": "64122.97",
+          "Size": "10.00000000"
+        },
+        {
+          "Price": "64092.98",
+          "VWAP": "64106.45",
+          "Size": "100.00000000"
+        },
+        {
+          "Price": "63969.00",
+          "VWAP": "64064.19",
+          "Size": "250.00000000"
+        }
+      ],
+      "Offers": [
+        {
+          "Price": "64165.29",
+          "VWAP": "64165.29",
+          "Size": "1.00000000"
+        },
+        {
+          "Price": "64204.14",
+          "VWAP": "64185.56",
+          "Size": "10.00000000"
+        }
+      ],
+      "Markets": {
+        "archax": {
+          "Status": "Unavailable",
+          "Message": "No credential"
+        },
+        "bitfinex": {
+          "Status": "Unavailable",
+          "Message": "No credential"
+        },
+        "btse": {
+          "Status": "Unavailable",
+          "Message": "No credential"
+        },
+        "gemini": {
+          "Status": "Unavailable",
+          "Message": "No credential"
+        },
+        "okcoin": {
+          "Status": "Unavailable",
+          "Message": "No credential"
+        },
+        "pyth": {
+          "Status": "Unavailable",
+          "Message": "No credential"
+        },
+        "whalefin": {
+          "Status": "Unavailable",
+          "Message": "No credential"
+        },
+        "kraken": {
+          "Status": "Online",
+          "ExchangeTime": "2024-04-14T11:37:43.097968Z",
+          "SystemTime": "2024-04-14T11:37:43.108114Z",
+          "MarketAccount": "kraken/kraken"
+        },
+        "bitstamp": {
+          "Status": "Offline",
+          "MarketAccount": "bitstamp/bitstamp-pts"
+        },
+        "coinbase": {
+          "Status": "Online",
+          "ExchangeTime": "2024-04-14T11:37:43.118973Z",
+          "SystemTime": "2024-04-14T11:37:43.122051Z",
+          "MarketAccount": "coinbase/coinbase"
+        },
+        "lmax_digital": {
+          "Status": "Online",
+          "ExchangeTime": "2024-04-14T11:37:42.392481Z",
+          "SystemTime": "2024-04-14T11:37:42.392481Z",
+          "MarketAccount": "lmax_digital/lmax_digital"
+        },
+        "b2c2": {
+          "Status": "Online",
+          "ExchangeTime": "2024-04-14T11:37:42.923734Z",
+          "SystemTime": "2024-04-14T11:37:42.923734Z",
+          "MarketAccount": "b2c2/b2c2"
+        },
+        "cumberland": {
+          "Status": "Online",
+          "ExchangeTime": "2024-04-14T11:37:42.679168Z",
+          "SystemTime": "2024-04-14T11:37:42.679168Z",
+          "MarketAccount": "cumberland/cumberland"
+        },
+        "galaxy": {
+          "Status": "Offline",
+          "MarketAccount": "galaxy/galaxy"
+        },
+        "laser_digital": {
+          "Status": "Offline",
+          "MarketAccount": "laser_digital/laser_digital"
+        },
+        "tradias": {
+          "Status": "Offline",
+          "MarketAccount": "tradias/tradias"
+        }
+      }
+    }
+  ]
+}
